@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\BubbleSortUsArray.h" />
+    <ClInclude Include="..\BubblesortUseVector.h" />
+    <ClInclude Include="..\InsertionSortUsArray.h" />
+    <ClInclude Include="..\InsertionSortUseVector.h" />
+    <ClInclude Include="..\MergeSortUsArray.h" />
+    <ClInclude Include="..\MergeSortUseVector.h" />
+    <ClInclude Include="..\SelectionSortUsArray.h" />
+    <ClInclude Include="..\SelectionSortUseVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
