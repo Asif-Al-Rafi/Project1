@@ -124,6 +124,18 @@
     <ClInclude Include="..\SelectionSortUsArray.h" />
     <ClInclude Include="..\SelectionSortUseVector.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BubbleSortUsArray.cpp" />
+    <ClCompile Include="..\BubblesortUseVector.cpp" />
+    <ClCompile Include="..\BubblesortUsVector.cpp" />
+    <ClCompile Include="..\InsertionSortUsArray.cpp" />
+    <ClCompile Include="..\InsertionSortUseVector.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\MergeSortUsArray.cpp" />
+    <ClCompile Include="..\MergeSortUseVector.cpp" />
+    <ClCompile Include="..\SelectionSortUsArray.cpp" />
+    <ClCompile Include="..\SelectionSortUseVector.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
